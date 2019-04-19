@@ -7,6 +7,8 @@ import "font-awesome/css/font-awesome.css";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
 
+console.log("SUPERMAN", process.env.REACT_APP_NAME);
+
 ReactDOM.render(
   <BrowserRouter>
     <App />
